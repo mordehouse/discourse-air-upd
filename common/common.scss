@@ -16,7 +16,7 @@
   }
   .search-menu input[type="text"] {
     border: 1px solid transparent;
-    border-radius: 0.25em;
+    border-radius: 20epx;
     min-height: 40px;
     &:focus {
       outline: 3px solid rgba(var(--primary-rgb), 0.35);
@@ -36,7 +36,7 @@
     outline: 1px solid var(--tertiary-hover);
   }
   .results {
-    top: 43px;
+    top: 64px;
     border-radius: 0.25em;
   }
   .search-context {
@@ -46,12 +46,12 @@
 }
 
 .search-input {
-  border-radius: 0.25em;
+  border-radius: 20px;
 }
 
 .display-search-banner {
   #main-outlet {
-    padding-top: 2em;
+    padding-top: 3em;
   }
 }
 
@@ -145,7 +145,7 @@ input[type="color"],
 .select-kit.combo-box .select-kit-header,
 .d-editor-textarea-wrapper,
 div.ac-wrap {
-  border-radius: 4px;
+  border-radius: 20px;
 }
 .d-header {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
@@ -165,7 +165,7 @@ div.ac-wrap {
 }
 
 .d-header-icons .icon img.avatar {
-  border-radius: 0.25em;
+  border-radius: 20px;
 }
 
 .menu-panel.drop-down {
@@ -194,13 +194,13 @@ div.ac-wrap {
 
 .btn:not(.themes-tab):not(.components-tab),
 .select-kit.dropdown-select-box .dropdown-select-box-header {
-  border-radius: 8px;
+  border-radius: 20px;
   border: 1px solid transparent;
 }
 
 .post-admin-menu.popup-menu {
   .btn.widget-button {
-    border-radius: 0px;
+    border-radius: 20px;
   }
 }
 
@@ -244,7 +244,7 @@ html {
       var(--tertiary-hover) 0%,
       var(--tertiary) 100%
     );
-    clip-path: ellipse(148% 70% at 91% -14%);
+    clip-path: unset;
   }
 }
 
@@ -274,7 +274,7 @@ html body #main-outlet {
 
 .nav-pills > li a.active,
 .nav-pills > li > a {
-  border-radius: 0.5em;
+  border-radius: 20px;
 }
 
 // Topic List
