@@ -70,6 +70,20 @@
   flex: unset;
 }
 
+.topic-body {
+  width: calc(690px + (11px * 2));
+  float: left;
+  min-width: 0;
+  position: relative;
+  border-top: 1px solid var(--primary-low);
+  padding: 12px 0 0 12px;
+}
+
+.cooked {
+  border-radius: 8px;
+}
+
+
 .badge-wrapper.box {
   border-radius: 0.25em;
   overflow: hidden;
@@ -244,7 +258,7 @@ html {
       var(--tertiary-hover) 0%,
       var(--tertiary) 100%
     );
-    clip-path: unset;
+    clip-path: unclip;
   }
 }
 
@@ -431,7 +445,7 @@ html body #main-outlet {
       .avatar {
         width: 40px;
         height: 40px;
-        border-radius: 20px;
+        border-radius: 8px;
       }
       a.latest {
         .avatar {
